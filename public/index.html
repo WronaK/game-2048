@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>2048</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animation-style.css">    
+        <script src="boundle.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div class="score">
+                    <span>WYNIK: </span>
+                    <span id="score"></span>
+                </div>
+                <div class="div-2048">2048</div>
+                <button id="new-game">NOWA GRA</button>
+            </header>
+            <div id="default-board">
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+                <div class="default-tile"></div>
+            </div>
+            <div class="grid" id="board"></div>
+            <div class="container-messages">
+                <div id="final-message">Wygrałeś!</div>
+                <button id="try-again">SPRÓBUJ PONOWNIE!</button>
+                <button id="continue">KONTYNUUJ!</button>
+            </div>
+        </div>
+    </body>
+</html>
